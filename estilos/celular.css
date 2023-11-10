@@ -9,11 +9,7 @@
     transform: translate(-50%, -50%);
  }
  #dados-formulario{
-  background-color: darkred;
-  background-size: cover;
-  background-attachment: fixed;
-  
-    
+  background-color: darkred;    
     }
  section#dados-formulario{
     height: 500px;
