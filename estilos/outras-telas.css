@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* telas medias (landscape tablets, 768px and up) */@media only screen and (min-width: 768px) {
+
+}
+
+/* grandes telas (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1100px;
+      background-image: url(../img/back-main.jpg);
+      background-position: center center;
+      background-size: cover;
+     }
+   
+     section#dados-formulario{
+        height: 600px;
+        border-radius: 15px;
+        padding: 15px;
+       
+        display: inline-block;
+     }
+     section#dados-formulario h1{
+        margin: 10px;
+        text-align: left;
+        color: white;
+        font-size: 2em;
+        width: 400px;
+        text-shadow: 1px 1px 1px black;
+        position: absolute;
+        top: 5%;
+        left: 8%;
+        
+        
+     }
+     section#dados-formulario form{
+        margin: 200px 0px 0px 90px;
+       
+    
+     }
+     section#dados-formulario label{
+        color: white;
+     }
+     section#dados-formulario form input{
+        margin: 10px;
+        padding: 10px;
+        
+        
+     }
+    
+     .inserir-dados{
+        border: none;
+        border-bottom: 2px solid #623d02;
+        background-color: rgba(255, 255, 255, 0);
+     }
+    
+    .botoes{
+        font-size: 1em;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.46);
+        border-radius: 2px;
+    }
+    
+    
+     #iEntrar{
+        width: 180px;
+        background-color: rgb(255, 157, 0) ;
+        border: none;
+        color: white ;
+     }
+     #iSenha{
+        width: 180px;
+        background-color: rgb(255, 157, 0);
+        border: none;
+        color: white;
+     }
+        section#fundo-colorido{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            height: 502px;
+            padding: 10px;
+            margin-right: 60px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+            width: 500px;
+         /*    background-image: url(../img/Female-Photographer-PNG-Cutout.png);
+            background-size: cover;
+            background-position: left center;
+            background-attachment: fixed;
+            background-repeat: no-repeat; */
+            
+           
+     }
+     
+     section#fundo-colorido p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.3em;
+        font-weight: bolder;
+       text-shadow: 1px 1px 1px black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        
+     }
+     #imagem-png{
+        position: absolute;
+        top: 33%;
+        left: 3%;
+        
+     }
+     section#fundo-colorido img {
+        height: 350px;
+        width: 460px;
+       
+     }
+}
+

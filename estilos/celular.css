@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* celulares pequenos (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+ main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ #dados-formulario{
+  background-image: url(../img/back-main.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+    
+    }
+ section#dados-formulario{
+    height: 400px;
+    border-radius: 15px;
+    padding: 15px;
+ }
+ section#dados-formulario h1{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    width: 219px;
+    text-shadow: 1px 1px 1px black;
+   
+ }
+ 
+ section#dados-formulario form{
+    margin: 100px 0px 0px 20px;
+
+ }
+ section#dados-formulario label{
+    color: white;
+ }
+ section#dados-formulario form input{
+    margin: 10px;
+    padding: 10px;
+    
+    
+ }
+
+ .inserir-dados{
+    border: none;
+    border-bottom: 2px solid #623d02;
+    background-color: rgba(255, 255, 255, 0);
+ }
+
+.botoes{
+    font-size: 1em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.46);
+    border-radius: 2px;
+}
+
+
+ #iEntrar{
+    width: 180px;
+    background-color: rgb(255, 157, 0) ;
+    border: none;
+    color: white ;
+ }
+ #iSenha{
+    width: 180px;
+    background-color: rgb(255, 157, 0);
+    border: none;
+    color: white;
+ }
+    section#fundo-colorido{
+    display: none;
+ }
+
+}
+
+/* dispositivos menores (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+      background-image: url(../img/back-main.jpg);
+      background-position: center center;
+      background-size: cover;
+     }
+   
+     section#dados-formulario{
+        height: 600px;
+        border-radius: 15px;
+        padding: 15px;
+        position: relative;
+        left: 50%;
+        
+ 
+     }
+     section#dados-formulario h1{
+        margin:0px;
+        text-align: left;
+        color: white;
+       width: 300px;
+       text-shadow: 2px 2px 3px black;
+       position: absolute;
+       top: 40%;
+       left: -40%;
+     }
+     #paragrafo-content{
+        display: block;
+     }
+     section#dados-formulario form{
+        margin: 150px 0px 0px 90px;
+       
+    
+     }
+     section#dados-formulario label{
+        color: white;
+        text-shadow: 2px 2px 3px black;
+     }
+     section#dados-formulario form input{
+        margin: 10px;
+        padding: 10px;
+        
+        
+     }
+    
+     .inserir-dados{
+        border: none;
+        border-bottom: 2px solid #623d02;
+        background-color: rgba(255, 255, 255, 0);
+     }
+    
+    .botoes{
+        font-size: 1em;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.46);
+        border-radius: 2px;
+    }
+    
+    
+     #iEntrar{
+        width: 180px;
+        background-color: rgb(255, 157, 0) ;
+        border: none;
+        color: white ;
+     }
+     #iSenha{
+        width: 180px;
+        background-color: rgb(255, 157, 0);
+        border: none;
+        color: white;
+     }
+        section#fundo-colorido{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            height: 502px;
+            padding: 10px;
+            margin-right: 60px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+            display: none;
+            
+         /*    background-image: url(../img/Female-Photographer-PNG-Cutout.png);
+            background-size: cover;
+            background-position: left center;
+            background-attachment: fixed;
+            background-repeat: no-repeat; */
+            
+           
+     }
+     
+     section#fundo-colorido p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.3em;
+        font-weight: bolder;
+       text-shadow: 1px 1px 1px black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        
+     }
+     #imagem-png{
+        position: absolute;
+        top: 33%;
+        left: 3%;
+        
+     }
+     section#fundo-colorido img {
+        height: 350px;
+        width: 460px;
+       
+     }
+}
